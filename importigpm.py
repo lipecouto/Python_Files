@@ -159,4 +159,7 @@ def sqlConn():
 
 #sqlConn()
 
-#schedule.every().day.at("00:00").do(sqlConn())
+def main():
+  schedule.every().day.at("00:00").do(sqlConn)
+
+ 
