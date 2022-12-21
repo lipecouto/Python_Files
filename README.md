@@ -1,19 +1,18 @@
-# Importador automático de dados do IGPM para banco de dados SQL SERVER
+# Projeto Century - 2019
 
-### 👋 Olá sou Philipe, e esse é um projeto novo que estou implementando, atuei como profissional especialista no ERP Sankhya por 12 anos e agora decidi mudar para desenvolvedor soluções diversas para problemas diversos.
+### 👋 Olá sou Philipe, e esse é um projeto que foi implementado, atuei como profissional especialista no ERP Sankhya por 12 anos e agora decidi mudar para desenvolvedor full stack.
 
 ---
 
-#### Esse repositório tem como objetivo ajudar as pessoas que eventualmente precisam de uma solução para atualizar os dados de IGPM no sistema Sankhya.
+#### Esse repositório tem como objetivo ajudar as pessoas que eventualmente precisam de uma API de conexão com ERP Sankhya no banco de dados Oracle.
 
 
 ### Informações importantes sobre esse projeto
 - Para funcionar, é necessário baixar todos os arquivos do repositório.
-- É necessário ter Python 3.8 ou superior.
-- É necessário editar o arquivo config.ini e preencher os dados solicitados.
-- O arquivo .so deverá ficar em um diretório onde poderá ser acessado pela aplicação.
-- A aplicação busca os dados de IGPM de um host externo gratuito, não há garantias de que esse host sempre irá funcionar, fique atento a isso.
-- É necessário baixar as librarys indicadas no arquivo .py, sem elas a aplicação não funcionará.
-- Uma tabela adicional será criada no seu banco de dados caso ela não exista, logo, os dados devem ser extraidos desta tabela e distribuidos nas tabelas do sistema. (podemos montar uma procedure para isso posteriormente, sempre verifique esse repositório)
+- É necessário ter Python 3.7 ou superior.
+- É necessário editar o arquivo config.conf e preencher os dados solicitados.
+- É necessário ter o Oracle para python cx-Oracle 7.2.2
+- É necessário baixar as librarys indicadas no arquivo .py, sem elas a aplicação não funcionará, como por exemplo o Flask.
+- Originalmente essa API trabalha com tabelas adicionais do sistema ERP, portanto pode ser necessário alterar algumas consultas
 - Qualque dúvida ou sugestão, sinta-se a vontade para entrar em contato.
 - Esse código é livre então fique a vontade para baixar o repositório e alterar o que lhe for conveniênte.
